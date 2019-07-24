@@ -1,2 +1,4 @@
 # PowerShellPower
 DeployDTSX_Project - This is an example of a PowerShell script that deploys the SSIS project and its parameters on the server using the ispac file. It uses catalog.deploy_project the stored procedure from SSISDB.
+
+CheckReadOnlyRoutingList - script for checking the configuration of read-only routing for an Always On availability group
