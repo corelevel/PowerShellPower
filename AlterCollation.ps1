@@ -1,13 +1,11 @@
-﻿# Import module for use SMO objects
-Import-Module "SQLPS" -DisableNameChecking;
-# load .NET assembly
+﻿# load .NET SMO assembly
 [System.Reflection.Assembly]::LoadWithPartialName('Microsoft.SqlServer.SMO') | out-null
 
 $Server = 'REDALERT'
 $Database = 'AdventureWorks2017'
-$FileDropFK = 'C:\Temp\1.DropFK.sql'
-$FileAlter = 'C:\Temp\2.Alter.sql'
-$FileCreateFK = 'C:\Temp\3.CreateFK.sql'
+$FileDropFK = 'C:\Temp\01.DropFK.sql'
+$FileAlter = 'C:\Temp\02.Alter.sql'
+$FileCreateFK = 'C:\Temp\03.CreateFK.sql'
 $Collate = 'Cyrillic_General_CI_AS'
 
 function WriteScript()
