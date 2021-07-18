@@ -8,6 +8,8 @@ AlterCollation - script for changing the collation for string fields in the tabl
 
 SRSS scripts
 export_rdl - exports SSRS catalog to the file system folder
+
 update_rdl_datasource - updates RDL DataSource to the new value. It helps to avoid an error like this 
 "The dataset 'BlaBlaBlaDataSet' refers to the shared data source 'BlaBlaBlaSource', which is not published on the report server" when you try to import RDL file to SSRS
+
 import_rdl - imports file system folder to SSRS catalog
